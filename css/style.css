@@ -1,7 +1,16 @@
 .carousel{
     border-radius: 50px 50px 50px 50px;
     overflow: hidden;
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-top: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+#cards{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    align-items: center
 }

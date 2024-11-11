@@ -14,3 +14,22 @@
     display: flex;
     align-items: center;
 }
+
+#whatsicon{
+    position: fixed;
+      bottom: 10px; /* Distance from top */
+      right: 10px; /* Distance from left */
+      z-index: 9999; /* Ensure the icon stays on top */
+      font-size: 30px; /* Size of the icon */
+      padding: 5px; 
+      border-radius: 25%; /* Optional: makes the icon circular */
+
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: adds a shadow */
+
+    max-width: 70px;
+    max-height: 70px;
+}
+
+form{
+    bottom: 10px;
+}

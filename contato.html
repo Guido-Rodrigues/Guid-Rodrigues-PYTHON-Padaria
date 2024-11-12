@@ -69,26 +69,22 @@
     <a href="https://api.whatsapp.com/send?phone=21972538831">
         <img src="img/whatsapp.svg" id="whatsicon">
     </a>
-
-
-
-
-    <div> <!--Form pelo-->
+    
+    <div class="container-md"> <!--Form pelo bootstrap com action do formspree<-->
       <form action="https://formspree.io/f/xbljyydo" method="POST">
         <p class="fs-3">Entre em contato conosco:</p>
-      <label>
-        Seu e-mail:
-        <input type="email" name="email">
-      </label>
-      <label>
-        Sua Mensagem:
-        <textarea name="message"></textarea>
-      </label>
-      <!-- your other form fields go here -->
-      <button type="submit">Send</button>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Seu e-mail</label>
+        <input type="email" class="form-control" name="email" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text">Não compartilharemos seu e-mail com ninguém.</div>
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Sua mensagem</label>
+        <input type="message" class="form-control" name="message">
+      </div>
+      <button type="submit" class="btn btn-primary">Enviar</button>
     </form>
     </div>
-    
 
 
 

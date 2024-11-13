@@ -34,7 +34,7 @@ form{
     bottom: 10px;
 }
 
- header{
+header{
    position: fixed;
    z-index: 9999; 
    top: 0px;
@@ -42,3 +42,13 @@ form{
    left: 0px;
    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 } 
+
+footer{
+    margin-top: auto;
+}
+
+html, body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
